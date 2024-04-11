@@ -1,0 +1,128 @@
+/* background-image per header con immagine di un codice */
+header {
+    background-image: url(./media/bakgroundIMG.jpg);
+    background-size: contain;
+    background-position: center;
+    background-color: white;
+
+
+}
+
+body {
+    /* Margin al body per togliere spazio bianco sopra */
+    margin: 0px;
+
+}
+
+.logo {
+    /* sistemata img del logo */
+    width: 300px;
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+/* Stili per i link  */
+a {
+    color: black;
+    background-color: #ffed00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Cambio colore al passaggio del mouse per i link nav */
+a:hover {
+    color: white;
+    background-color: red;
+
+}
+
+/* Font e colore per il titolo (h1) */
+#titolo {
+    font-family: "Montserrat", sans-serif;
+    color: #ffed00;
+    background-color: rgb(122, 122, 122);
+}
+
+/* ridimensionamento article */
+article {
+    width: 30%;
+    padding: 20px;
+
+}
+
+.Art-in-evidenza {
+    color: black;
+    text-align: center;
+    word-spacing: 5px;
+}
+
+
+/* Colore personalizzato per i titoli h2 */
+.titolih2 {
+    color: rgb(255, 0, 0);
+}
+
+/* Colore personalizzato per i titoli h3 */
+.titolih3 {
+    color: rgb(0, 0, 255);
+}
+
+/* Font per il testo (p) */
+p {
+    font-family: "Reddit Mono", monospace;
+    color: rgb(0, 0, 0);
+}
+
+nav ul {
+    /* Applicato Flexbox per mettere in linea gli elementi */
+    display: flex;
+    /* Distribuito gli elementi lungo la pagina */
+    justify-content: space-around;
+    /* Rimuove i punti elenco */
+    list-style: none;
+    /* tolto margine bianco sopra la nav */
+    margin-top: 0px;
+}
+
+
+/* custom per bottoni e posizionamento */
+.btn-custom {
+    background-color: #ffed00;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-custom:hover {
+    background-color: red;
+    color: white;
+}
+
+/* custom per bottone Home e posizionamento */
+
+.btn-home {
+    background-color: #ffed00;
+    cursor: pointer;
+
+}
+
+.btn-home:hover {
+    background-color: red;
+    color: white;
+}
+
+
+/* ridimensionamento img articoli */
+.img-art {
+
+    height: 230px;
+}
+
+/* display flex per gli articoli applicato alla section */
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
