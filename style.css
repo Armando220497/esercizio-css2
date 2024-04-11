@@ -8,11 +8,6 @@ header {
 
 }
 
-body {
-    /* Margin al body per togliere spazio bianco sopra */
-    margin: 0px;
-
-}
 
 .logo {
     /* sistemata img del logo */
@@ -42,20 +37,15 @@ a:hover {
 #titolo {
     font-family: "Montserrat", sans-serif;
     color: #ffed00;
-    background-color: rgb(122, 122, 122);
+    background-color: black;
 }
 
-/* ridimensionamento article */
-article {
-    width: 30%;
-    padding: 20px;
-
-}
-
+/* centramento titolo articoli in evidenza */
 .Art-in-evidenza {
-    color: black;
+
     text-align: center;
-    word-spacing: 5px;
+    margin: 0%;
+
 }
 
 
@@ -94,6 +84,8 @@ nav ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
+
+
 }
 
 .btn-custom:hover {
@@ -118,11 +110,29 @@ nav ul {
 /* ridimensionamento img articoli */
 .img-art {
 
-    height: 230px;
+    width: 300px;
 }
 
 /* display flex per gli articoli applicato alla section */
 .flex {
+
     display: flex;
+    width: 60%;
+
+
+}
+
+/* inserito aside e ridimensionato */
+aside {
+    background-color: #ffed00;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    width: 30%;
+    margin-left: 20%;
+
+}
+
+main {
+    display: flex;
 }
